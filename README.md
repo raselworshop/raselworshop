@@ -1,10 +1,6 @@
-# React + Vite Portfolio
+![Header](./your-header-image-name.png)
 
-Welcome to my portfolio project! This application showcases my skills and projects as a web developer. Built with **React** and **Vite**, it delivers high performance and an excellent user experience.
 
-## 🖥️ Live Demo
-
-Check out the live site: [Rasel Workshop](https://raselworshop.netlify.app)
 
 ---
 
