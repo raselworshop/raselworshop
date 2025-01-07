@@ -1,6 +1,6 @@
 ![Header](https://i.ibb.co/JmDPj0C/github-header-image.png)
 
-<h1 align="left">"Hello, World! 👋 Welcome to my coding universe!"</h1>
+<h1 align="left">Hello! I’m glad you’re here to explore my projects!</h1>
 
 ###
 
