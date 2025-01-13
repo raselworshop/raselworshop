@@ -60,5 +60,10 @@
 <div align="center">
   <img src="https://profile-counter.glitch.me/raselworshop/count.svg?"  />
 </div>
+<div className='mt-4'>
+ <button className='btn'>
+  <a href="/Frontend-developer.pdf" download className='btn'>DOWNLOAD RESUME</a>
+ </button>
+ </div>
 
 ###
