@@ -210,7 +210,7 @@ const About = () => {
                             </div>
                             <div className='mt-4'>
                                 <button className='btn'>
-                                    <a href="/resume.pdf" download className='btn'>DOWNLOAD RESUME</a>
+                                    <a href="/Frontend-developer.pdf" download className='btn'>DOWNLOAD RESUME</a>
                                 </button>
                             </div>
                         </div>
