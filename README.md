@@ -6,6 +6,20 @@
 
 <p align="left">My name is Md Rasel Mia, a front-end web developer. Born in Bangladesh, and I am currently coding my journey in Malaysia!</p>
 
+<h2 align="left">Let's Connect</h2>
+
+<div align="left">
+  <a href="https://linkedin.com/in/yourprofile" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://twitter.com/yourhandle" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+  <a href="mailto:youremail@example.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+</div>
+
 ###
 
 <h2 align="left">About me</h2>
@@ -68,8 +82,8 @@
 <div align="center">
   <img src="https://profile-counter.glitch.me/raselworshop/count.svg?"  />
 </div>
-<div align="center" style="margin-top: 20px;">
-  <a href="[https://your-resume-direct-link.com/Frontend-developer.pdf](https://drive.google.com/file/d/1DAfJ3n75ynnYl8t9L5MBeIXDqmfUGXPc/view?usp=sharing)" download>
+<div align="center" margin-top="20">
+  <a href="https://drive.google.com/file/d/1DAfJ3n75ynnYl8t9L5MBeIXDqmfUGXPc/view" download>
     <img src="https://img.shields.io/badge/Download_Resume-FF5722?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download Resume" />
   </a>
 </div>
