@@ -62,6 +62,17 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="40" alt="tailwindcss logo"  />
 </div>
 
+<h2 align="left">Skill Levels</h2>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/JavaScript-Expert-yellow?logo=javascript&logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-Advanced-blue?logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/HTML5-Intermediate-orange?logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-Advanced-blue?logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Node.js-Intermediate-green?logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/MongoDB-Beginner-green?logo=mongodb&logoColor=white" alt="MongoDB" />
+</div>
+
 ###
 
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
