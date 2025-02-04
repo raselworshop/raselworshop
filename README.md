@@ -65,12 +65,30 @@
 <h2 align="left">Skill Levels</h2>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/JavaScript-Expert-yellow?logo=javascript&logoColor=white" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/React-Advanced-blue?logo=react&logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/HTML5-Intermediate-orange?logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-Advanced-blue?logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Node.js-Intermediate-green?logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/MongoDB-Beginner-green?logo=mongodb&logoColor=white" alt="MongoDB" />
+  
+  ### Frontend
+  <img src="https://img.shields.io/badge/HTML5-Expert-E34F26?logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-Advanced-1572B6?logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-Advanced-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-Advanced-61DAFB?logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-Intermediate-06B6D4?logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+
+  ### Backend
+  <img src="https://img.shields.io/badge/Node.js-Intermediate-339933?logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-Intermediate-000000?logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/MongoDB-intermediate-47A248?logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Firebase-Intermediate-FFCA28?logo=firebase&logoColor=black" alt="Firebase" />
+
+   ### Packages & Libraries
+  <img src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white" alt="npm" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white" alt="Axios" />
+  <img src="https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white" alt="React Router" />
+  <img src="https://img.shields.io/badge/Chart.js-FF6384?logo=chart.js&logoColor=white" alt="Chart.js" />
+
+  ### Tools
+  <img src="https://img.shields.io/badge/Git-Advanced-F05032?logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/VS_Code-Expert-007ACC?logo=visual-studio-code&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Figma-Intermediate-F24E1E?logo=figma&logoColor=white" alt="Figma" />
 </div>
 
 ###
