@@ -18,6 +18,9 @@
   <a href="mailto:youremail@example.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
+    <a href="https://drive.google.com/uc?export=download&id=1DAfJ3n75ynnYl8t9L5MBeIXDqmfUGXPc" download>
+    <img src="https://img.shields.io/badge/Download_Resume-FF5722?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download Resume" />
+  </a>
 </div>
 
 ###
@@ -77,15 +80,22 @@
   </table>
 </div>
 
+<h2 align="left">Featured Projects</h2>
+
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| [E-Commerce App](https://github.com/you/repo) | Full-stack shopping platform | React, Node.js, MongoDB |
+| [Portfolio Site](https://github.com/you/repo) | Responsive personal portfolio | HTML, CSS, JavaScript |
+
 ###
 
 <div align="center">
   <img src="https://profile-counter.glitch.me/raselworshop/count.svg?"  />
 </div>
-<div align="center" margin-top="20">
-  <a href="https://drive.google.com/file/d/1DAfJ3n75ynnYl8t9L5MBeIXDqmfUGXPc/view" download>
-    <img src="https://img.shields.io/badge/Download_Resume-FF5722?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download Resume" />
-  </a>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=raselworshop&theme=onedark&row=2&column=4" alt="GitHub Trophies" />
 </div>
+
 
 ###
