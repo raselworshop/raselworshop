@@ -68,10 +68,10 @@
 <div align="center">
   <img src="https://profile-counter.glitch.me/raselworshop/count.svg?"  />
 </div>
-<div className='mt-4'>
- <button className='btn'>
-  <a href="/Frontend-developer.pdf" download className='btn'>DOWNLOAD RESUME</a>
- </button>
- </div>
+<div align="center" style="margin-top: 20px;">
+  <a href="https://your-resume-direct-link.com/Frontend-developer.pdf" download>
+    <img src="https://img.shields.io/badge/Download_Resume-FF5722?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download Resume" />
+  </a>
+</div>
 
 ###
