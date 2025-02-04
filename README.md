@@ -69,7 +69,7 @@
   <img src="https://profile-counter.glitch.me/raselworshop/count.svg?"  />
 </div>
 <div align="center" style="margin-top: 20px;">
-  <a href="https://your-resume-direct-link.com/Frontend-developer.pdf" download>
+  <a href="[https://your-resume-direct-link.com/Frontend-developer.pdf](https://drive.google.com/file/d/1DAfJ3n75ynnYl8t9L5MBeIXDqmfUGXPc/view?usp=sharing)" download>
     <img src="https://img.shields.io/badge/Download_Resume-FF5722?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download Resume" />
   </a>
 </div>
