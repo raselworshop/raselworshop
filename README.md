@@ -21,6 +21,7 @@
     <a href="https://drive.google.com/uc?export=download&id=1DAfJ3n75ynnYl8t9L5MBeIXDqmfUGXPc" download>
     <img src="https://img.shields.io/badge/Download_Resume-FF5722?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download Resume" />
   </a>
+  <img src="https://profile-counter.glitch.me/raselworshop/count.svg?"  />
 </div>
 
 ###
@@ -37,7 +38,7 @@
 
 ###
 
-<div align="center">
+<div align=" left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
@@ -67,7 +68,7 @@
 
 ###
 
-<div align="center">
+<div align="left">
   <table>
     <tr>
       <td>
@@ -82,20 +83,19 @@
 
 <h2 align="left">Featured Projects</h2>
 
+<div align="left">
+
 | Project | Description | Tech Stack |
-|---------|-------------|------------|
+|:-------:|:-----------:|:----------:|
 | [E-Commerce App](https://github.com/you/repo) | Full-stack shopping platform | React, Node.js, MongoDB |
 | [Portfolio Site](https://github.com/you/repo) | Responsive personal portfolio | HTML, CSS, JavaScript |
 
+</div>
+
 ###
 
-<div align="center">
-  <img src="https://profile-counter.glitch.me/raselworshop/count.svg?"  />
-</div>
-
-<div align="center">
+<div align="left">
   <img src="https://github-profile-trophy.vercel.app/?username=raselworshop&theme=onedark&row=2&column=4" alt="GitHub Trophies" />
 </div>
-
 
 ###
