@@ -72,18 +72,21 @@
   <img src="https://img.shields.io/badge/JavaScript-Advanced-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/React-Advanced-61DAFB?logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-Intermediate-06B6D4?logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/daisyUI-5A0EF8?logo=daisyui&logoColor=white" alt="daisyUI" />
 
   ### Backend
   <img src="https://img.shields.io/badge/Node.js-Intermediate-339933?logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Express-Intermediate-000000?logo=express&logoColor=white" alt="Express" />
   <img src="https://img.shields.io/badge/MongoDB-intermediate-47A248?logo=mongodb&logoColor=white" alt="MongoDB" />
   <img src="https://img.shields.io/badge/Firebase-Intermediate-FFCA28?logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/JWT-000000?logo=json-web-tokens&logoColor=white" alt="JWT" />
 
    ### Packages & Libraries
   <img src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white" alt="npm" />
   <img src="https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white" alt="Axios" />
   <img src="https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white" alt="React Router" />
   <img src="https://img.shields.io/badge/Chart.js-FF6384?logo=chart.js&logoColor=white" alt="Chart.js" />
+  <img src="https://img.shields.io/badge/shadcn-000000?logo=shadcn&logoColor=white" alt="shadcn" />
 
   ### Tools
   <img src="https://img.shields.io/badge/Git-Advanced-F05032?logo=git&logoColor=white" alt="Git" />
