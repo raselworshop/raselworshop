@@ -119,8 +119,13 @@
 
 | Project | Description | Tech Stack |
 |:-------:|:-----------:|:----------:|
-| [E-Commerce App](https://github.com/you/repo) | Full-stack shopping platform | React, Node.js, MongoDB |
-| [Portfolio Site](https://github.com/you/repo) | Responsive personal portfolio | HTML, CSS, JavaScript |
+| [Pet_Adoption App](https://github.com/raselworshop/pet-adoption-client) | pet-adoption | React, Node.js, MongoDB, Express |
+| [Service_Review](https://github.com/raselworshop/service-review-client) | Service reviews | React, Node.js, MongoDB, Express |
+| [Movie_Port](https://github.com/raselworshop/movieport/tree/main/movie-portal-client) | Movie Portal | React, Node.js, MongoDB, Express |
+| [Plannet](https://github.com/raselworshop/plantNet-Client) | PlanNet Service | React, Node.js, MongoDB, Express |
+| [Coffee_Store](https://github.com/raselworshop/Coffee_Master/tree/main/coffee-store-client) | Coffee Store | React, Node.js, MongoDB, Express |
+| [Gadget_Heaven](https://github.com/raselworshop/Gadget_Heaven) | Gadget_Heaven | HTML, CSS, TAILWIND, React, Node.js, MongoDB, Express |
+| [Smart_Ticketing](https://github.com/raselworshop/smart-ticketing) | Smart_Ticketing | HTML, CSS, TAILWIND, JS |
 
 </div>
 
