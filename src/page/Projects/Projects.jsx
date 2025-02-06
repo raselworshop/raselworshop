@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 const projects = [
     {
@@ -65,35 +66,95 @@ const projects = [
 ];
 
 const Projects = () => {
+    const containerVariants = {
+        hidden: { opacity: 0 },
+        visible: {
+            opacity: 1,
+            transition: {
+                staggerChildren: 0.2, // একটু বেশি সময় নেবে 
+                delayChildren: 0.5, // শুরুতে একটু দেরি হবে 
+                ease: "easeInOut", // স্মুথ অ্যানিমেশন
+                duration: 1.2 // টাইম বাড়ানো
+            }
+        }
+    };
+    
+    const itemVariants = (index) => {
+        const animations = [
+            { hidden: { opacity: 0, x: -50 }, visible: { opacity: 1, x: 0, transition: { duration: 1.5, ease: "easeInOut" } } },
+            { hidden: { opacity: 0, x: 50 }, visible: { opacity: 1, x: 0, transition: { duration: 1.5, ease: "easeInOut" } } },
+            { hidden: { opacity: 0, y: 50 }, visible: { opacity: 1, y: 0, transition: { duration: 1.5, ease: "easeInOut" } } }
+        ];
+        return animations[index % animations.length]; 
+    };
+    
+
     return (
-        <div className="container mx-auto p-8">
-            <div className='bg-gray-800 text-white p-6 rounded-lg mb-3'>
-                <h1 className="text-4xl font-bold text-center mb-8">My Projects</h1>
+        <section className="py-16 bg-gradient-to-b from-gray-900 to-gray-800">
+            <div className="container mx-auto px-4">
+                {/* Header */}
+                <motion.div 
+                    initial={{ opacity: 0, y: -50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: false, amount: 0.2 }}
+                    transition={{ duration: 0.8, ease: "easeOut" }}
+                    className="text-center mb-12"
+                >
+                    <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                        My Projects
+                    </h1>
+                    <div className="h-1 bg-gradient-to-r from-blue-500 to-purple-500 w-24 mx-auto mt-4 rounded-full" />
+                </motion.div>
+
+                {/* Projects Grid */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:4 lg:gap-8">
+                    {projects.map((project, index) => {
+                        const directions = ["left", "right", "bottom"];
+                        return (
+                            <motion.div 
+                                key={index}
+                                custom={directions[index % directions.length]}
+                                initial="hidden"
+                                whileInView="visible"
+                                viewport={{ once: false, amount: 0.2 }}
+                                variants={itemVariants(index)}
+                                className="group relative bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700/30 hover:border-blue-500/30 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/10"
+                            >
+                                <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                                <div className="relative flex flex-col h-full">
+                                    <h2 className="text-2xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                                        {project.title}
+                                    </h2>
+                                    <p className="text-gray-300 mb-4 flex-1">
+                                        {project.description}
+                                    </p>
+                                    <div className="flex gap-4 mt-auto">
+                                        <a 
+                                            href={project.github} 
+                                            target="_blank" 
+                                            rel="noopener noreferrer" 
+                                            className="btn btn-sm bg-blue-500/20 text-blue-400 border-blue-500/30 hover:bg-blue-500/30 transition-all"
+                                        >
+                                            <FaGithub className="mr-2" /> GitHub
+                                        </a>
+                                        {project.demo && (
+                                            <a 
+                                                href={project.demo} 
+                                                target="_blank" 
+                                                rel="noopener noreferrer" 
+                                                className="btn btn-sm bg-purple-500/20 text-purple-400 border-purple-500/30 hover:bg-purple-500/30 transition-all"
+                                            >
+                                                <FaExternalLinkAlt className="mr-2" /> Demo
+                                            </a>
+                                        )}
+                                    </div>
+                                </div>
+                            </motion.div>
+                        );
+                    })}
+                </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {projects.map((project, index) => (
-                    <div key={index} className="card shadow-lg bg-gray-800 text-white">
-                        <div className="card-body">
-                            <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
-                            <p className="mb-2">{project.description}</p>
-                            <div className="mb-4">
-                                <strong>Technologies:</strong> Firebase, React, Tailwind CSS
-                            </div>
-                            <div className="flex justify-between">
-                                <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn btn-accent btn-sm">
-                                    <FaGithub className="mr-2" /> GitHub
-                                </a>
-                                {project.demo && (
-                                    <a href={project.demo} target="_blank" rel="noopener noreferrer" className="btn btn-sm">
-                                        <FaExternalLinkAlt className="mr-2" /> Demo
-                                    </a>
-                                )}
-                            </div>
-                        </div>
-                    </div>
-                ))}
-            </div>
-        </div>
+        </section>
     );
 };
 
